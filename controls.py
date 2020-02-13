@@ -22,3 +22,10 @@ GP.setup(18,False)
 GP.setup(22,True)
 GP.setup(23,False)
 time.sleep(1.5)
+
+#Turn left for approx 1 second
+GPIO.setup(17,True)
+GPIO.setup(18,False)
+GPIO.setup(22,False)
+GPIO.setup(23,False)
+time.sleep(0.7)
