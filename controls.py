@@ -29,3 +29,11 @@ GPIO.setup(18,False)
 GPIO.setup(22,False)
 GPIO.setup(23,False)
 time.sleep(0.7)
+
+#Move forward again for approx 1.5 seconds
+GPIO.setup(22,True)
+time.sleep(1.5)
+
+#Stop all movements
+GPIO.setup(17,False)
+GPIO.setup(22,False)
